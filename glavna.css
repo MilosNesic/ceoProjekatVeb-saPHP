@@ -1,0 +1,153 @@
+body{
+	background-color:white;
+	
+}
+
+#div_heder{
+	background-color:#5C3317;
+	/*width:1100px;
+	height:70px;*/
+
+	margin-left:110;
+	margin-right:110;
+}
+#logo{
+	height:70px;
+	width:225px;
+	float:left;
+}
+/*stilizujem dropdown za Jelovnik*/
+.dropdown{
+	display:inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  background-color:#5C3317;
+ /* padding: 12px 16px;*/
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+/*.dropdown-content a:hover {
+  background-color: #ddd;
+}*/
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* kraj stilizovanja za dropdown*/
+nav a {
+    text-decoration: none;
+    text-align:center;
+    font-weight: bold;
+	font-size:25px;
+    color: white;
+    display: inline-block;
+    width: 200px;
+    height:70px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px; 
+    background-color: #5C3317;
+	
+}
+nav a:hover{
+	background-color:#B8860B;
+}
+
+#link_za_pocetnu{
+	background-color:#8B5A2B; 
+}
+
+#glavni_div{
+	/*width:1100px;
+	height:1000px;*/
+	
+	margin-left:110;
+	margin-right:110;
+	color:#5C3317;
+	background-color:#EEE8AA;
+	font-size:20px;
+	position:relative;
+	top:0px;
+	left:0px;
+	padding-bottom:40px;
+}	
+
+#glavni_div p{
+	color:#5C3317;
+	font-weight:bold;
+	margin-top:0px; 
+	font-size:25px;
+	text-align:center;
+	margin-left:25px;
+	margin-right:25px;
+	/*font-family: cursive;*/
+}
+
+#glavni_div h1{
+	text-align:center;
+	margin-top:0px;
+	padding-top:40px;
+}
+
+#omotac1{
+	height:250px;
+	position:relative;
+	
+}
+#omotac1 p{
+	padding-top:70px;
+}
+
+#omotac2{
+	height:270px;
+	position:relative;
+	
+}
+#omotac2 p{
+	padding-top:70px;
+}
+
+
+#glavni_footer_div{
+	/*width:1100px;*/
+	background-color:#5C3317;
+	margin-left:110;
+	margin-right:110;
+}
+
+#glavni_footer_div p{
+	font-size:20;
+	color:white;
+	text-align:center;
+	margin-top:0px;
+	
+}
+
+#sala1{
+	margin-left:100px;
+	margin-right:50px;
+	float:left;
+}
+
+#sala2{
+	float:right;
+	margin-top:20px;
+	margin-right:120px;
+	margin-left:120px;
+}
+
